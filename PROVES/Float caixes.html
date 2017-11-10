@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Float caixes</title>
+    <meta author="Ana">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      background-color: #F4A460;
+      display: block;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    li {
+      background-color: #F4A460;
+      margin: 1px;
+      display: block;
+      height: 30px;
+      float: right;
+      padding: 10px;
+      font-family: helvetica;
+      font-variant: small-caps;
+    }
+    li:hover {
+      background-color: white;
+    }
+    #contenidor {
+      width: 80%;
+      margin: 0 auto;
+    }
+    #cap {
+      background-color: #000080;
+      width: 100%;
+      height: 150px;
+      background-image: url(cafecap.jpg);
+      color: #FFEFD5;
+      text-align: center;
+      line-height: 150px;
+    }
+    #menu {
+      background-color: #FFEFD5;
+      float: left;
+      width: 38.71%;
+      height: 790px;
+      border: dotted 5px black;
+    }
+    #principal {
+      background-color: #FA8072;
+      float: right;
+      width: 60%;
+      height: 800px;
+    }
+    #peu {
+      background-color: gray;
+      float: left;
+      width: 100%;
+      height: 100px;
+    }
+  </style>
+  </head>
+  <body>
+  <div id="contenidor">
+    <div id="cap" class="pagina">
+      <h1>Coffee Shop</h1>
+    </div>
+    <ul>
+      <li>Home</li>
+      <li>Productes</li>
+      <li>Serveis</li>
+      <li>Botiga</li>
+      <li>Contacte</li>
+    </ul>
+    <div id="menu" class="pagina">
+      <p>MENU</p>
+    </div>
+    <div id="principal" class="pagina">
+      <p>PRINCIPAL</p>
+    </div>
+    <div id="peu" class="pagina">
+      <p>PEU</p>
+    </div>
+
+  </body>
+</html>
