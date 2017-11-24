@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e9ebee;
+}
+
+#barra {
+  height: 43px;
+  background-color: #4267b2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#contenidor {
+  width: 853px;
+  background-color: #FFF;
+  margin: 0 auto;
+}
+#portada {
+  height: 316px;
+  background-image:  url(../img/Portada.jpg);
+  border: solid 2px #D3D3D3;
+  margin-top: 43px;
+}
+#nom {
+  background-color:;
+  position: relative;
+  width: 120px;
+  top: 250px;
+  left: 200px;
+  color: #FFF;
+  font-family: Lucida, tahoma, Segoe UI, San Francisco;
+  text-shadow: 0 0 4px black;
+}
+#perfil {
+  background-color: pink;
+  width: 161px;
+  border: solid 3px #D3D3D3;
+  border-radius: 4px;
+  position: relative;
+  left: 20px;
+  top: 110px;
+  box-shadow:  0 0 5px black;
+}
+#menu {
+  height: 44px;
+  background-color: #e6e8eb;
+  padding: 0;
+  margin: 0 0 0 189px;
+  width: 484px;
+}
+#menu li {
+  background-color: #FFF;
+  margin-right: 2px;
+  float:left;
+  padding: 0 18px;
+  display: block;
+  Font-family: Lucida, tahoma, Segoe UI, San Francisco;
+  font-weight: bold;
+  color: #4267b2;
+  margin: 0 0 0 2px;
+  height: 44px;
+  line-height: 44px;
+}
+#menu li:hover {
+  color: #000;
+  background-image: url(../img/selec.gif);
+  background-repeat:  no-repeat;
+  background-position: 50% 35px;
+
+}
+#contingut {
+  border-top: solid 1px #e6e8eb ;
+}
+.esquerra {
+  width: 323px;
+  margin: 10px 0;
+  display: block;
+  border: solid 1px #CCC;
+  border-radius: 4px;
+  padding: 0;
+  Font-family: Lucida, tahoma, Segoe UI, San Francisco;
+  font-weight: bold;
+}
+.esquerra h4 {
+  background-color:;
+  height: 14px;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 18px;
+  text-indent: 36px;
+  background-image: url(../img/lateral.png);
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.esquerra ul{
+  margin-top: 20px;
+}
+#presentacio h4 {
+  background-position: 0 0;
+}
+#fotos h4{
+  background-position:  0 -24px;
+}
+
+#amics h4{
+  background-position: 0 -48px;
+}
+#presentacio li{
+  height: 40px;
+  border-top: solid 1px gray;
+  font-size: 12px;
+  line-height: 30px;
+}
+.estudis {
+  list-style-image: url(../img/icones_estudis.png);
+}
+.domicili {
+  list-style-image: url(../img/icones_domicili.png);
+}
+.feina {
+  list-style-image: url(../img/icones_feina.png);
+}
+.relacio {
+  list-style-image: url(../img/icones_sentimental.png);
+}
+.esdeveniments {
+  list-style-image: url(../img/icones_esdeveniments.png);
+}
+.pagina {
+  list-style-image: url(../img/icones_rss.png);
+}
+
+#fotos ul li {
+  background-color: yellowgreen;
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  background-size: 99px 99px;
+  color: transparent;
+}
+#fotos ul{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+
+#f01 {
+  background-image: url(../img/fotos/f01.png);
+}
+#f02 {
+  background-image: url(../img/fotos/f02.png);
+}
+#f03 {
+  background-image: url(../img/fotos/f03.jpg);
+}
+#f04 {
+  background-image: url(../img/fotos/f04.png);
+}
+#f05 {
+  background-image: url(../img/fotos/f05.jpg);
+}
+#f06 {
+  background-image: url(../img/fotos/f06.jpg);
+}
+#f07 {
+  background-image: url(../img/fotos/f07.png);
+}
+#f08 {
+  background-image: url(../img/fotos/f08.jpg);
+}
+#f09 {
+  background-image: url(../img/fotos/f09.jpg);
+}
+
+#amics ul{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#amics ul li {
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  background-size: 99px 99px;
+  color: white;
+  line-height: 178px;
+  text-shadow: 3px;
+  background-image: url(../img/Fotos/f09.jpg);
+  text-indent:  5px;
+  font-size: 14px;
+  font-style: normal;
+  Font-family:Lucida, tahoma, Segoe UI, San Francisco;
+}
