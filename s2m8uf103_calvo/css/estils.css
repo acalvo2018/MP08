@@ -4,6 +4,7 @@ body {
   background-color: #e9ebee;
 }
 
+
 #barra {
   height: 43px;
   background-color: #4267b2;
@@ -12,17 +13,21 @@ body {
   left: 0;
   right: 0;
 }
+
 #contenidor {
   width: 853px;
   background-color: #FFF;
   margin: 0 auto;
+  overflow: hidden;
 }
+
 #portada {
   height: 316px;
   background-image:  url(../img/Portada.jpg);
   border: solid 2px #D3D3D3;
   margin-top: 43px;
 }
+
 #nom {
   background-color:;
   position: relative;
@@ -33,6 +38,7 @@ body {
   font-family: Lucida, tahoma, Segoe UI, San Francisco;
   text-shadow: 0 0 4px black;
 }
+
 #perfil {
   background-color: pink;
   width: 161px;
@@ -43,13 +49,16 @@ body {
   top: 110px;
   box-shadow:  0 0 5px black;
 }
+
 #menu {
   height: 44px;
   background-color: #e6e8eb;
   padding: 0;
   margin: 0 0 0 189px;
   width: 484px;
+  overflow-x: hidden;
 }
+
 #menu li {
   background-color: #FFF;
   margin-right: 2px;
@@ -63,16 +72,19 @@ body {
   height: 44px;
   line-height: 44px;
 }
+
 #menu li:hover {
   color: #000;
   background-image: url(../img/selec.gif);
   background-repeat:  no-repeat;
-  background-position: 50% 35px;
-
+  background-position: 50% 37px;
 }
+
 #contingut {
   border-top: solid 1px #e6e8eb ;
 }
+
+
 .esquerra {
   width: 323px;
   margin: 10px 0;
@@ -82,7 +94,12 @@ body {
   padding: 0;
   Font-family: Lucida, tahoma, Segoe UI, San Francisco;
   font-weight: bold;
+  float: left;
+  clear: both;
+
 }
+
+
 .esquerra h4 {
   background-color:;
   height: 14px;
@@ -94,12 +111,16 @@ body {
   background-repeat: no-repeat;
   margin: 0;
 }
+
 .esquerra ul{
   margin-top: 20px;
 }
+
+
 #presentacio h4 {
   background-position: 0 0;
 }
+
 #fotos h4{
   background-position:  0 -24px;
 }
@@ -107,12 +128,15 @@ body {
 #amics h4{
   background-position: 0 -48px;
 }
+
 #presentacio li{
   height: 40px;
   border-top: solid 1px gray;
   font-size: 12px;
   line-height: 30px;
 }
+
+
 .estudis {
   list-style-image: url(../img/icones_estudis.png);
 }
@@ -132,6 +156,7 @@ body {
   list-style-image: url(../img/icones_rss.png);
 }
 
+
 #fotos ul li {
   background-color: yellowgreen;
   display: block;
@@ -142,6 +167,7 @@ body {
   background-size: 99px 99px;
   color: transparent;
 }
+
 #fotos ul{
   overflow: hidden;
   margin: 0;
@@ -178,12 +204,14 @@ body {
   background-image: url(../img/fotos/f09.jpg);
 }
 
+
 #amics ul{
   overflow: hidden;
   margin: 0;
   padding: 0;
   position: relative;
 }
+
 #amics ul li {
   display: block;
   width: 99px;
@@ -194,9 +222,131 @@ body {
   color: white;
   line-height: 178px;
   text-shadow: 3px;
-  background-image: url(../img/Fotos/f09.jpg);
+  background-image: ;
   text-indent:  5px;
   font-size: 14px;
   font-style: normal;
   Font-family:Lucida, tahoma, Segoe UI, San Francisco;
+  text-shadow: 0 0 4px black;
+}
+
+
+#cristian {
+  background-image: url(https://calvarez2018.github.io/MP08/s2m8uf103_alvarez/img/perfil.jpg);
+}
+#rosa {
+  background-image: url(https://rtirado2018.github.io/MP08/s2m8uf103_tirado20%/img/perfil.jpg);
+}
+#noelia {
+  background-image: url(https://npedraza2018.github.io/MP08/s2m8uf103_pedraza/img/perfil.jpg);
+}
+#silvia {
+  background-image: url(https://sestall2018.github.io/MP08/s2m8uf103_estall/img/perfil.jpg);
+}
+#jaume {
+  background-image: url(https://jricart2018.github.io/MP08/s2m8uf103_ricart/img/perfil.jpg);
+}
+#alex {
+  background-image: url(https://amanchon2018.github.io/MP08/s2m8uf103_manchon/img/perfil.jpg);
+}
+#ana {
+  background-image: url(https://acalvo2018.github.io/MP08/s2m8uf103_calvo/img/perfil.jpg);
+}
+#andrea {
+  background-image: url(https://aganoza2018.github.io/MP08/s2m8uf103_ganoza/img/perfil.jpg);
+}
+#marclo {
+  background-image: url(https://mlozano2018.github.io/MP08/s2m8uf103_lozano/img/perfil.jpg);
+}
+
+
+#pensa ul{
+  height: 40px;
+  background-color:#f5f6f8;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+#pensa ul li{
+  float: left;
+  margin: 5px 20px 0px 35px;
+  border-right: solid 1px grey;
+  padding-right: 10px;
+
+}
+#pensa div{
+  height: 40px;
+  margin: 0;
+  padding: 0;
+}
+#pensa div input{
+  height: 36px;
+  width: 509px;
+  margin: 0;
+  padding: 0;
+}
+#pensa ul li a{
+  display: block;
+  height: 34px;
+}
+#pensa ul li a:hover {
+  background-repeat: no-repeat;
+  background-image: url(../img/selec.gif);
+  background-position: 30% 105%;
+}
+
+
+#icoestat {
+  list-style-image:  url(../img/post_nota.png);
+}
+#icofoto {
+  list-style-image:  url(../img/post_foto.png);
+}
+#icoevent {
+  list-style-image:  url(../img/post_ubicacio.png);
+}
+
+.dreta {
+
+  width: 513px;
+  border: solid 1px gray;
+  margin: 10px 0;
+  border-radius: 3px;
+  float: right;
+  position: relative;
+  top: -695px;
+  Font-family: Lucida, tahoma, Segoe UI, San Francisco;
+}
+
+/*------- Estils del mur ------*/
+
+h5 {
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  height: 10px;
+  padding: 5px;
+}
+h6 {
+  font-style: normal;
+  font-weight: normal;
+  background-color: ;
+  margin: 0;
+  height: 10px;
+  padding: 5px;
+}
+
+.postintro {
+  background-image: url(../img/Perfil.jpg);
+  padding: 10px 10px 10px 50px;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: 10px 10px;
+}
+
+.post img, .post iframe, .post p {
+  font-size: 12px;
+  padding: 10px;
+  width: 493px;
+  height: auto;
 }
